@@ -4,6 +4,58 @@ article {
 }
 
 
+.logotip{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 38px;
+    width: 101px;
+    height: 64px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu-item{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    line-height:36px;
+    margin-left: 30px;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+.current-menu-item:hover{
+    text-decoration: underline;
+}
+
+.current-menu-item{
+    text-decoration: none;
+    font-size: 24px;
+    line-height:36px;
+    margin-left: 30px;
+    color: red;
+}
+
+
+.first_menu_item{
+    margin-left: 38px;
+}
+
+.menu-items{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    list-style: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+}
+
+
+
 h1  {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:42px;
@@ -72,5 +124,19 @@ section img {
 
     section, section img {
         margin: 25px 20px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        line-height:25px;
+        margin-bottom: 10px;
     }
 }
